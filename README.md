@@ -21,14 +21,16 @@ Author: [kitet](https://github.com/kitet)
  	- Select Generate Token without any selection on list given. 
 
  3. Save you key on a .env file with _export.apiKey_ variable:
-
+ ```
  	exports.apiKey = "YOUR_API_KEY";
  ```
 
  4. Install dependencies to run (should have node.js installed):
  ```
  	npm install 
+ 	```
  	bower install
+ 	```
  
  5. Build the project:
  ```
