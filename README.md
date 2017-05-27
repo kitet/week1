@@ -23,15 +23,17 @@ Author: [kitet](https://github.com/kitet)
  3. Save you key on a .env file with _export.apiKey_ variable:
  ```
  	exports.apiKey = "YOUR_API_KEY";
- ``
 
- 4. Install dependencies to run (should have node.js installed):
+ 4. Install dependencies:
  ```
- 	npm install and bower install.
+ npm install and bower install
+ ```
  
  5. Build the project:
  ```
- 	gulp build && gulp serve
- 	```
- 6. Deploy on any browser
+ gulp build
  ```
+ 6. Deploy on any latest browser:
+
+
+ 
