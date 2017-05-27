@@ -32,7 +32,6 @@ A website project that retrives public repositories of a github user(input as us
  ```
  gulp build
 ```
- 6. Deploy on any latest browser:
-```
+ 6. Deploy on any browser(latest version):
 
  
