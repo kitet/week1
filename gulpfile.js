@@ -74,7 +74,7 @@ gulp.task('browserifyJS',['concatJS'],function(){
 
 gulp.task('minifyJS',['browserifyJS'], function(){
 	return gulp.src('./build/js/app.js')
-		.pipe(uglify)
+		.pipe(uglify())
 		.pipe(gulp.dest('./build/js'));
 });
 
