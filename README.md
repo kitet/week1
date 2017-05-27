@@ -27,14 +27,11 @@ Author: [kitet](https://github.com/kitet)
 
  4. Install dependencies to run (should have node.js installed):
  ```
- 	npm install 
- 	```
- 	bower install
- 	```
+ 	npm install and bower install
  
  5. Build the project:
  ```
- gulp build && gulp serve
- ```
+ 	gulp build && gulp serve
+ 	```
 
  6.Deploy on any browser
