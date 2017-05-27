@@ -1,0 +1,6 @@
+#ignore this/
+node_modules/
+bower-components/
+build/
+tmp/
+.env

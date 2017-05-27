@@ -1,0 +1,36 @@
+{
+  "name": "newswebsite",
+  "description": "site that fethches latest news on user request",
+  "main": "index.js",
+  "authors": [
+    "kitet"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "front-web",
+    "moment.js",
+    "sass",
+    "with",
+    "gulp",
+    "npm",
+    "gulp",
+    "ajax",
+    "api",
+    "oop",
+    "js"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1",
+    "jquery": "^3.2.1"
+  }
+}
