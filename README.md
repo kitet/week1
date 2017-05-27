@@ -2,7 +2,7 @@
 
 Author: [kitet](https://github.com/kitet)
 
-- A website project that retrives public repositories of a github user(input as username) using github API that requires api key
+A website project that retrives public repositories of a github user(input as username) using github API that requires api key
 
 ## Keywords(Tech Used)
 	npm, bower, gulp, botstrap, html5
@@ -22,17 +22,17 @@ Author: [kitet](https://github.com/kitet)
 
  3. Save you key on a .env file with _export.apiKey_ variable:
  ```
- 	exports.apiKey = "YOUR_API_KEY";
- 	```
+ exports.apiKey = "YOUR_API_KEY";
+ ```
  4. Install dependencies:
- 
- 		npm install and bower install
-
+ ```
+ npm install and bower install
+```
  5. Build the project:
- 	
- 	gulp build
-
+ ```
+ gulp build
+```
  6. Deploy on any latest browser:
-
+```
 
  
