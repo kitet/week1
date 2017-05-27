@@ -12,7 +12,7 @@ UserObject.prototype.getUserDetails=function(username,rUser){
 		rUser(response);
 	})
 	.fail(function(){
-		console.log("Error getting user details");
+		rUser(null);
 	});
 }
 
