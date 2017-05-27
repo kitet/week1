@@ -38,7 +38,7 @@ gulp.task("bowerBuild", ['bower'], function(){
 });
 
 //task to handle browser reload
-gulp.task('jsBuild', ['jsBrowserify','jshint'], function(){
+gulp.task('jsBuild', ['jsBrowserify','checkJS'], function(){
 	browserSync.reload();
 });
 

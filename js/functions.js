@@ -1,17 +1,19 @@
 //require api to make requests
-var apikey=require('./../.env').apiKey;
+var mykey=require('./../.env').apiKey;
 //create a prototype onkect that shall be inherited from the ui
 
 function UserObject(){
-
 }
 
-
-UserObject.prototype.getUserDetails=function(username, displayDetails){
-	$.get('https://api.github.com/users/kitet?access_token=5d2ea9cadd9940e3be8ccc669e1de77b567455fc').then(function(response){
-		console.log("HJHHD");
-		displayDetails(response['name'],response['email']);
+UserObject.prototype.getUserDetails=function(username,rUser){
+	var url='https://api.github.com/users/'+username+'/repos?access_token='+mykey;
+	$.get(url)
+	.then(function(response){
+		rUser(response);
+	})
+	.fail(function(){
+		console.log("Error getting user details");
 	});
 }
 
-exports.userObject=UserObject;
+exports.userObj=UserObject;
